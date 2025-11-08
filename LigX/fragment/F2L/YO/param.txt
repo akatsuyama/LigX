@@ -1,0 +1,5 @@
+link_f
+link_atom_1 YO
+link_atom_2 YO
+ref_atom VLB
+ref_atom_2 CX_0

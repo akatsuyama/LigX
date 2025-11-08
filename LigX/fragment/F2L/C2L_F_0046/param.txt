@@ -1,0 +1,3 @@
+link_f
+link_atom_1 YCA
+ref_atom CX_0

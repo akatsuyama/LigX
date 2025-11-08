@@ -1,0 +1,5 @@
+link_f
+link_atom_1 YCA
+link_atom_2 YNA
+ref_atom YNA
+ref_atom_2 YCA

@@ -1,0 +1,43 @@
+site_name: LigX User Guide
+site_url: https://<your-username>.github.io/LigX
+repo_url: https://github.com/<your-username>/LigX
+
+theme:
+  name: material
+
+theme:
+  name: material
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            show_source: true
+            separate_signature: true
+
+nav:
+  - What is LigX: index.md
+  - Getting Started: getting-started.md
+  - Input File Preparation:
+      - Special Atom Name in LigX: input_details/atomname.md
+      - Initiator Preparation: input_details/initiator.md
+      - Protein xyz file: input_details/proteins.md
+  - Data Layout: data-layout.md
+  - LigX Functions: 
+      - LigXRun: resources.md
+      - Score calculation for breadth-first search based on interaction energy: calc_interaction.md
+  - Using User-Specified Fragments: user_fragment.md
+  - Reference: referemce_docs.md
+
+

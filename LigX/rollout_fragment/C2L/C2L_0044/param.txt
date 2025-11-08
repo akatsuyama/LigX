@@ -1,0 +1,5 @@
+link_c
+link_atom_1 dummy
+link_atom_2 YCA
+ref_atom dummy
+ref_atom_2 CX_0

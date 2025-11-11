@@ -1,0 +1,14 @@
+name: docs
+on:
+  push:
+    branches: [ main ]
+    paths: [ 'docs/**', 'mkdocs.yml', 'LigX/**' ]
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install mkdocs-material mkdocstrings[python]
+      - run: mkdocs gh-deploy --force

@@ -28,7 +28,7 @@ work_dir/
 
 </pre>
 
-An external_fragment directory containing empty C2L and F2L subfolders can be downloaded from the GitHub repository. Other directories, such as C1, may already contain required data set. It is recommended to use this template when organizing your custom fragments according to their respective categories.
+An external_fragment directory containing empty C2L and F2L subfolders can be downloaded from the GitHub repository. Other directories, such as C1L, may already contain required data set. It is recommended to use this template when organizing your custom fragments according to their respective categories.
 
 *Note*: When an external fragment set is specified, the default fragment set normally loaded by LigX will not be included. This means that if you want to add fragments, you must combine your additional fragments with those from the default set. The default fragment set can be obtained from the GitHub repository ([akatsuyama/LigX-data](https://github.com/akatsuyama/LigX-data)).
 

@@ -2,6 +2,7 @@ site_name: LigX User Guide
 site_url: https://<your-username>.github.io/LigX
 repo_url: https://github.com/<your-username>/LigX
 
+
 theme:
   name: material
 

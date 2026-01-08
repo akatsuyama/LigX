@@ -30,7 +30,7 @@ The atoms labeled **SC, FC, X and Y** in the above figure should be renamed as s
 | VC_2 | XC2_2 | R'Z'_2 | 'Z' = H, C, O, N, S, Cl, Br, I, P, F | 
 | VC_2 | XC1_2 | R'Z'_2 | 'Z' = H, C, O, N, S, Cl, Br, I, P, F | 
 | VC_2 | XC3g_2 | R'Z'_2 | 'Z' = H, C, O, N, S, Cl, Br, I, P, F | 
-| VC_2 | XCA | R'Z'_2 | 'Z' = H, C, O, N, S, Cl, Br, I, P, F | 
+| VC_2 | XCA_2 | R'Z'_2 | 'Z' = H, C, O, N, S, Cl, Br, I, P, F | 
 
 *Note* 'Z' used to define Y is a variable. The atom name for Y must be given based on the element.
 
